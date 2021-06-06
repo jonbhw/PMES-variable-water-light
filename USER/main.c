@@ -34,7 +34,7 @@ void EXTI4_IRQHandler(void)
 	if (EXTI_GetITStatus(EXTI_Line4) != RESET) // 判断某个线上的中断是否发生
 	{
 		delay_ms(5);
-		LED1 = !LED1;
+		LED7 = !LED7;
 		EXTI_ClearITPendingBit(EXTI_Line4); // 清除LINE上的中断标志位
 	}
 }
