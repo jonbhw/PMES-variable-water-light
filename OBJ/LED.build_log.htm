@@ -21,24 +21,29 @@ Target DLL:      Segger\JL2CM3.dll V2.99.13.0
 Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
-d:\微机原理与嵌入式系统\源码\实验4 外部中断\USER\LED.uvprojx
-Project File Date:  06/06/2021
+C:\Users\stl\Desktop\过往代码\实验4 外部中断\综合实验\USER\LED.uvprojx
+Project File Date:  06/27/2021
 
 <h2>Output:</h2>
 Build target 'LED'
 compiling main.c...
+main.c(30): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+        sprintf(a, "%d ms", led_delay);
+main.c(57): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(a, "%d ms", led_delay);
+main.c(78): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(a, "%d ms", led_delay);
+main.c: 3 warnings, 0 errors
 compiling exti.c...
-compiling exti.c...
-compiling led.c...
 linking...
 ..\OBJ\LED.axf: Warning: L6304W: Duplicate input file ..\obj\exti_1.o ignored.
-Program Size: Code=2292 RO-data=424 RW-data=12 ZI-data=1836  
+Program Size: Code=4044 RO-data=424 RW-data=16 ZI-data=1832  
 Finished: 0 information, 1 warning and 0 error messages.
 FromELF: creating hex file...
-"..\OBJ\LED.axf" - 0 Error(s), 1 Warning(s).
+"..\OBJ\LED.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
-  d:\微机原理与嵌入式系统\源码\实验4 外部中断\USER\RTE
+  C:\Users\stl\Desktop\过往代码\实验4 外部中断\综合实验\USER\RTE
   C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
 
 <h2>Collection of Component Files used:</h2>
