@@ -109,7 +109,7 @@ lcd_wstr(4,2, a);
 /* 无限循环: 流水灯 */
 while (1) {
     LED0=1; delay_ms(led_delay); LED0=0; delay_ms(led_delay);
-	// ...
+    // ...
     LED7=1; delay_ms(led_delay); LED7=0; delay_ms(led_delay);
 };
 ```
